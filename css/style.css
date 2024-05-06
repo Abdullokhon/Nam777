@@ -1,0 +1,298 @@
+@import "url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap')";
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+.navbar a{
+    color: black;
+    text-decoration: none;
+}
+.logo{
+    font-size: 33px;
+    font-weight: 700;
+}
+.logo span{
+    font-weight: 700;
+    color: rgb(245, 147, 20);
+}
+.nav ul{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+.nav ul li{
+    list-style: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: 20;
+}
+/* title  */
+.title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 30px 40px;
+    padding-top: 50px;
+}
+.title .name{
+    color: #000;
+    font-size: 40px;
+    font-weight: 700;
+    padding: 15px;
+
+}
+
+/* shou case */
+
+.shou_case{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.case_img img{
+    max-width: 100%;
+    height: auto;
+}
+
+/* contact us */
+
+.contact{
+    display: flex;
+    flex-direction: row;
+    
+    justify-content: center;
+    max-width: 1196px;
+    position: relative;
+}
+
+.contact-info{ 
+    color: #FFF;
+    background: #000;
+    margin: 2rem;
+    border-radius: 5px;
+    padding: 2rem;
+}
+.contact-tilte h3{
+    font-size: 27px;
+    font-weight: 700;
+    color: rgb(245, 147, 20);
+}
+.contact-tilte p{
+    font-size: 15px;
+    font-weight: 400;
+    color: #afaaaa;
+}
+
+.contact{
+    margin: 3rem 0px;
+}
+.contact .contactInfo li{
+    list-style: none;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 500;
+    padding: 20px 0px;
+    transition: all 0.5s ease;
+}
+.contact ul li a {
+    color: #afaaaa;
+    cursor: pointer;
+    text-decoration: none;
+    transition: all 0.4s ease;
+}
+.contact ul li a:hover{
+    color:  rgb(245, 147, 20);
+}
+
+.contactMedia .contactIcon{
+    display: flex;
+    flex-direction: row;
+    padding: 50px 0px 0px 0px;
+    list-style: none;
+    
+}
+.contactMedia .contactIcon li{
+    font-size: 2rem;
+    padding: 30px 10px 0px 10px;
+}
+/* madia card */
+.card-body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    margin: 1.5rem;
+}
+.card-body a{
+    text-decoration: none;
+}
+.cards{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 1.5rem;
+    padding: 2rem 4.5rem;
+    border-radius: 5px;
+    background: #000;
+    color: #FFF;
+    transition: all 0.4s ease;
+    
+}
+.cards:hover{
+    cursor: pointer;
+    background: rgb(245, 147, 20);
+}
+.cards-title{
+    color: #fff;
+    font-size: 19px;
+    font-weight: 600;
+    padding: 10px;
+}
+
+/* cantact input */
+/* .contact-input{
+    margin: 30px 30px 40px 30px;
+
+}
+
+.name-input{
+    display: flex;
+    flex-direction: row;
+    margin: 0px 10px 10px 10px;
+}
+.input-title{
+    color: #000;
+    font-size: 1px;
+}
+.name-input input{
+    padding: 10px;
+    margin: 10px;
+    color: #000;
+    outline: none;
+    border: none;
+    border-bottom: 3px solid #ccc;
+}
+.contact-btn{
+    position: absolute;
+}
+.contact-btn button{
+    position: relative;
+    background: #000;
+    color: #FFF;
+    padding: 10px 20px;
+    outline: none;
+    border: none;
+    left: 280px;
+    top: 150px;
+    border-radius: 5px;
+} */
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #000;
+    color: #FFF;
+}
+.footer-icon{
+    display: flex;
+    justify-content: space-around;
+    padding: 1.2rem;
+    list-style: none;
+}
+.footer-icon li a{
+    margin: 1rem;
+    font-size: 37px;
+    color: #FFF;
+}
+
+
+.footer-icon li a:hover{
+    cursor: pointer;
+    background: rgb(245, 147, 20);
+}
+.footer-logo{
+    font-size: 2rem;
+    margin-top: 1rem;
+}
+
+
+/* Media querias */
+/* 
+// X-Small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap */
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (max-width: 576px) { 
+    
+
+
+ }
+
+/* // Medium devices (tablets, 768px and up) */
+@media (max-width: 768px) { 
+
+    
+    
+
+
+ }
+
+/* // Large devices (desktops, 992px and up) */
+@media (max-width: 992px) { 
+
+    .nav{
+        display: none;
+    }
+    .navbar{
+        display: flex;
+        justify-content: left;
+        margin: 20px 30px;
+    
+    }
+    .logo{
+        font-size: 30px;
+        font-weight: 700;
+    }
+    
+.cards{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+ 
+    
+}
+.card-body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+ }
+
+/* // X-Large devices (large desktops, 1200px and up) */
+@media (max-width: 1200px) { 
+
+    
+
+ }
+
+/* // XX-Large devices (larger desktops, 1400px and up) */
+@media (max-width: 1400px) { 
+
+
+
+ }
